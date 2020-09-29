@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16097.2" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Onb-Pu-LfX">
+                                <rect key="frame" x="0.0" y="44" width="414" height="852"/>
+                                <color key="backgroundColor" red="0.36078431370000003" green="0.88235294119999996" blue="0.90196078430000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Add a heading" translatesAutoresizingMaskIntoConstraints="NO" id="S8a-3D-ycN" userLabel="appLogo">
+                                <rect key="frame" x="90.5" y="376.5" width="233" height="143"/>
+                                <color key="backgroundColor" red="0.33125296240000002" green="0.88338470459999996" blue="0.90646910670000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="233" id="3DE-sy-WH6"/>
+                                    <constraint firstAttribute="height" constant="143" id="WeE-hz-O9o"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Kunze Weather" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qzZ-Li-G4d">
+                                <rect key="frame" x="131" y="549.5" width="152" height="18"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <color key="textColor" red="0.4313226342" green="0.43140128249999998" blue="0.43131768700000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="tintColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="Onb-Pu-LfX" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="0fq-CZ-pDi"/>
+                            <constraint firstItem="Onb-Pu-LfX" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="Aqw-H4-fhJ"/>
+                            <constraint firstItem="qzZ-Li-G4d" firstAttribute="top" secondItem="S8a-3D-ycN" secondAttribute="bottom" constant="30" id="HNX-6z-295"/>
+                            <constraint firstAttribute="bottom" secondItem="Onb-Pu-LfX" secondAttribute="bottom" id="MnS-R3-xEC"/>
+                            <constraint firstItem="S8a-3D-ycN" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="QYk-hQ-lgf"/>
+                            <constraint firstItem="qzZ-Li-G4d" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="131" id="Qbu-0b-JqO"/>
+                            <constraint firstItem="S8a-3D-ycN" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="VQO-jw-CCH"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="qzZ-Li-G4d" secondAttribute="trailing" constant="131" id="fue-vc-T4l"/>
+                            <constraint firstAttribute="trailing" secondItem="Onb-Pu-LfX" secondAttribute="trailing" id="ozf-s3-5US"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="52.173913043478265" y="375"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Add a heading" width="1024" height="1024"/>
+    </resources>
+</document>
